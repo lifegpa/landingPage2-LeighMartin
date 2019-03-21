@@ -197,6 +197,7 @@ body {
 /* navigation  */
 header {
   background: var(--lightblue);
+  opacity: 0.5;
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -343,10 +344,10 @@ nav a:hover {
 }
 .wrapper {
   display: grid;
-  grid-gap: 15px;
 }
 /* Top Container */
 .top-container {
+  margin-top: 250px;
   border: 1px solid red;
   display: grid;
   grid-gap: 10px;
@@ -367,7 +368,7 @@ nav a:hover {
 }
 .showcase .bg-image {
   position: absolute;
-  background-image: #333 url("../files/img/bboy.jpg");
+  background-image: url("../files/img/bboy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
