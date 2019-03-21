@@ -365,9 +365,9 @@ nav a:hover {
   justify-content: center;
   box-shadow: var(--shadow);
 }
-.showcase #showcase .bg-image {
+.showcase .bg-image {
   position: absolute;
-  background: #333 url("img/bboy.jpg");
+  background-image: #333 url("../files/img/bboy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
