@@ -857,17 +857,17 @@ img {
   font-family: sans-serif;
   height: 100vh;
 }
-.contact-title {
+.contact .contact-title {
   padding-top: 100px;
   color: #fff;
   text-transform: uppercase;
   transition: all 4s ease-in-out;
 }
-.contact-title h1 {
+.contact .contact-title .contact-title h1 {
   font-size: 32px;
   line-height: 10px;
 }
-.contact-title h2 {
+.contact .contact-title .contact-title h2 {
   font-size: 16px;
 }
 form {
@@ -891,10 +891,10 @@ form {
   font-style: 45px;
   margin-bottom: 16px;
 }
-input {
+.form-control input {
   height: 45px;
 }
-form .submit {
+.form-control form .submit {
   background: #7ad0cf;
   border-color: transparent;
   color: black;
@@ -904,21 +904,13 @@ form .submit {
   height: 50px;
   margin-top: 20px;
 }
-form .submit:hover {
+.form-control form .submit:hover {
   background-color: #fff;
   cursor: pointer;
 }
-@media (min-width: 700px) {
-  .page {
-    display: block;
-    justify-content: center;
-  }
-  .contact-form {
-    display: flex;
-  }
-  form {
-    display: block;
-    margin: 0 auto;
+@media (min-width: 500px) {
+  .form {
+    transition: none;
   }
 }
 /* Footer */

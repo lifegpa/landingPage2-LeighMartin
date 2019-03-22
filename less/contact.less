@@ -8,24 +8,24 @@
     height: 100vh;
 
 
+    .contact-title {
+        padding-top: 100px;
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 4s ease-in-out;
+
+
+        .contact-title h1 {
+            font-size: 32px;
+            line-height: 10px;
+        }
+
+        .contact-title h2 {
+            font-size: 16px;
+        }
+    }
 }
 
-.contact-title {
-    padding-top: 100px;
-    color: #fff;
-    text-transform: uppercase;
-    transition: all 4s ease-in-out;
-
-}
-
-.contact-title h1 {
-    font-size: 32px;
-    line-height: 10px;
-}
-
-.contact-title h2 {
-    font-size: 16px;
-}
 
 form {
     margin: 400px;
@@ -49,67 +49,32 @@ form {
     color: #fff;
     font-style: 45px;
     margin-bottom: 16px;
-}
 
-input {
-    height: 45px;
-}
 
-form .submit {
-    background: #7ad0cf;
-    border-color: transparent;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-form .submit:hover {
-    background-color: #fff;
-    cursor: pointer;
-}
-
-@media (min-width: 700px) {
-    .page {
-        display: block;
-        justify-content: center;
-
+    input {
+        height: 45px;
     }
 
-    .contact-form {
-        display: flex;
-
-
+    form .submit {
+        background: #7ad0cf;
+        border-color: transparent;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
     }
 
-    form {
-        display: block;
-        margin: 0 auto;
+    form .submit:hover {
+        background-color: #fff;
+        cursor: pointer;
     }
+
 }
 
-// @media (min-width: 500px) {
-//     .page {
-//         display: flex;
-//         justify-content: center;
-//         width: 400px;
-
-//     }
-
-//     .contact-form {
-//         width: 400px;
-//         margin: 0 auto;
-//         display: block;
-//         transition: none;
-
-//     }
-
-//     form-control {
-//         width: 400px;
-//         tr
-//     }
-
-
-// }
+@media (min-width: 500px) {
+    .form {
+        transition: none;
+    }
+}
