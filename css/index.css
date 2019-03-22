@@ -731,7 +731,7 @@ img {
   border: 1px solid #666;
   margin: 0.5em 0;
 }
-.show .btn:hover {
+.show .btn .btn:hover {
   background: #eaeaea;
   color: #333;
 }
@@ -755,6 +755,12 @@ img {
 #showcase h1 {
   padding-top: 100px;
   padding-bottom: 0;
+  color: orangered;
+  font-weight: bold;
+  font-size: 45px;
+}
+#showcase .content-text {
+  margin: 0 auto;
 }
 #showcase .content-wrap,
 #section-a .content-wrap {
@@ -765,6 +771,11 @@ img {
   background: #eaeaea;
   color: #333;
   padding-bottom: 2em;
+}
+#section-a .content-title {
+  color: orangered;
+  font-weight: bold;
+  font-size: 35px;
 }
 /* Section B */
 #section-b {
@@ -788,6 +799,11 @@ img {
   background: #fff;
   color: #333;
   padding: 2em;
+}
+#section-c .content-title {
+  color: orangered;
+  font-weight: bold;
+  font-size: 35px;
 }
 /* Section D / Boxes */
 #section-d .box {
