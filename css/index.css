@@ -839,19 +839,6 @@ form .submit:hover {
     margin: 0 auto;
   }
 }
-@media (min-width: 500px) {
-  .contact-form {
-    width: 95%;
-    margin: 0 auto;
-  }
-  .form-control {
-    width: 400px;
-  }
-  form {
-    transition: none;
-    margin: 0 auto;
-  }
-}
 /* Footer */
 footer {
   margin-top: 2rem;
