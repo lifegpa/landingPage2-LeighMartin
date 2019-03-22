@@ -153,16 +153,22 @@
     .grid {
         display: flex;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-        // border: 1px solid red;
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
 
     }
 
     #section-a .content-text {
         columns: 2;
-        column-gap: 2em;
+        column-gap: 1em;
+        padding: 25px;
         // border: 1px solid green;
+
+        h1 {
+            font-size: 55px;
+            font-weight: bold;
+        }
+
     }
 
     #section-a .content-text p {
@@ -174,10 +180,9 @@
         grid-column: 2/4;
     }
 
-    // .box,
-    // #main-footer div {
-    //     grid-column: span 2;
-    // }
+    .box {
+        grid-column: span 2;
+    }
 
     #section-b ul {
         display: flex;

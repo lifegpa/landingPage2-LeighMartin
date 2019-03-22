@@ -614,7 +614,7 @@ img {
 .cards-container .card .author .img-container {
   padding-right: 10px;
   border-right: 1px solid lightgrey;
-  height: 100px;
+  height: 150px;
 }
 .cards-container .card .author .img-container img {
   width: 100px;
@@ -736,12 +736,17 @@ img {
   .grid {
     display: flex;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
   #section-a .content-text {
     columns: 2;
-    column-gap: 2em;
+    column-gap: 1em;
+    padding: 25px;
+  }
+  #section-a .content-text h1 {
+    font-size: 55px;
+    font-weight: bold;
   }
   #section-a .content-text p {
     padding-top: 0;
@@ -749,6 +754,9 @@ img {
   .content-wrap,
   #section-b ul {
     grid-column: 0.5;
+  }
+  .box {
+    grid-column: span 2;
   }
   #section-b ul {
     display: flex;
