@@ -64,10 +64,47 @@ form .submit {
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
+}
 
-    form .submit:hover {
-        background-color: #fff;
-        cursor: pointer;
+form .submit:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .page {
+        display: block;
+        justify-content: center;
+
     }
 
+    .contact-form {
+        display: flex;
+
+
+    }
+
+    form {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 500px) {
+    .contact-form {
+        width: 95%;
+        margin: 0 auto;
+
+    }
+
+    .form-control {
+        width: 400px;
+    }
+
+
+    form {
+        transition: none;
+        margin: 0 auto;
+
+    }
 }
