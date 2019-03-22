@@ -7,7 +7,7 @@
     margin-top: 150px;
     border-bottom: 1px solid lightgrey;
     width: 80%;
-    /* border: 1px solid red; */
+    // border: 1px solid red;
     height: 100px;
     padding-bottom: 15px;
 }
@@ -160,4 +160,53 @@
 
 .card {
     color: var(--dark);
+}
+
+@media (max-width: 800px) {
+    .tabs {
+        width: 760px;
+        margin: 0 auto;
+    }
+
+    .topics {
+        // margin-right: 100px;
+        width: 650px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+
+    .top-Half {
+        margin-bottom: 20px;
+    }
+
+    .tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-top: 100px;
+
+        width: 380px;
+        height: 299px;
+        margin: 0 auto;
+
+        .topics {
+            // margin-right: 100px;
+            // width: 299px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+
+            .tab {
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+            }
+
+        }
+
+    }
+
 }
